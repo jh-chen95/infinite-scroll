@@ -67,6 +67,7 @@ async function getPhotos() {
         displayPhotos();
     } catch (error) {
         // Catch Error Here
+        console.error("Error：", error);
     }
 }
 
